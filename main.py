@@ -5,7 +5,8 @@ MY_LONG = 76.065422
 
 params = {
     "lat": MY_LAT,
-    "long": MY_LONG
+    "long": MY_LONG,
+    "formatted": 0
 }
 
 response = requests.get(url="https://api.sunrise-sunset.org/json", params=params)
